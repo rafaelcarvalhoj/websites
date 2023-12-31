@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a replication of [jorgefelipefit.com.br](https://jorgefelipefit.com.br/), originally built with WordPress by me.
 
-Currently, two official plugins are available:
+The goal of this version is to create a simplified copy, focusing on the website's structure. Please note that this copy does not include images or colors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Preview the Result
 
-## Expanding the ESLint configuration
+To view the result, follow these commands in your console:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Clone the Repository
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+$ git clone https://github.com/rafaelcarvalhoj/websites.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Navigate to the Project Directory
+```bash
+$ cd jorgefelipefit
+```
+
+### Install Dependencies and Run
+```bash
+$ npm install && npm run dev
+```
+
+Feel free to adjust and expand the content based on your project's specific details.
