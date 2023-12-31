@@ -3,6 +3,8 @@ import Main from './components/Main';
 import About from './components/About';
 import HowService from './components/HowService';
 import Querys from './components/Querys';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -11,7 +13,9 @@ export default function App() {
       <Main/>
       <About />
       <HowService />
+      <Pricing />
       <Querys />
+      <Footer />
     </>
   )
 }

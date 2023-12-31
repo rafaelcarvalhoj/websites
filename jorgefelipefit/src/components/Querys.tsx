@@ -44,7 +44,7 @@ const Querys: React.FC = () => {
         }
     ]
     return (
-        <div className="max-w-6xl py-6 px-4">
+        <div className="max-w-6xl py-6 px-4 mx-auto mt-12">
             <h3 className="font-light text-lg">DÚVIDAS</h3>
             <h1 className="font-bold text-3xl mb-4">FREQUENTES</h1>
             <Accordion open={alwaysOpen} placeholder="">
