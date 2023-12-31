@@ -9,7 +9,7 @@ import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import logo from "../assets/logo_descritiva_preta.png";
  
-export function Nav() {
+export default function Nav() {
   const [openNav, setOpenNav] = React.useState(false);
  
   const handleWindowResize = () =>
