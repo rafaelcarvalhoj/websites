@@ -25,7 +25,7 @@ export default function Nav() {
  
   return (
     <div className="bg-white">
-      <Navbar className="bg-transparent backdrop-saturate-1 border-0 shadow-none w-full lg:px-6 mx-auto px-2 py-3" placeholder="">
+      <Navbar className="bg-transparent max-w-6xl backdrop-saturate-1 border-0 shadow-none w-full lg:px-6 mx-auto px-2 py-3" placeholder="">
         <div className="flex items-center justify-between">
           <img src={logo} className="xl:w-72 w-64"/>
           <div className="hidden lg:block">

@@ -9,6 +9,7 @@ export default function NavList() {
     const links: link[] = [
         { name: "Home", href: "#" },
         { name: "About", href: "#" },
+        { name: "Service", href: "#" },
         { name: "Pricing", href: "#" },
         { name: "Consultoring", href: "#" },
     ];
